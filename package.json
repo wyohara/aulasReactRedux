@@ -1,0 +1,27 @@
+{
+  "name": "aulasreactredux",
+  "version": "1.0.0",
+  "description": "Aulas de introdução ao react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wyohara/aulasReactRedux.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "udemy"
+  ],
+  "author": "Willian Ohara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wyohara/aulasReactRedux/issues"
+  },
+  "homepage": "https://github.com/wyohara/aulasReactRedux#readme",
+  "dependencies": {
+    "react": "^16.14.0"
+  }
+}
