@@ -1,0 +1,8 @@
+/*
+  CSS do arquivo index.js
+  - aplicado a todo o html da aplicação
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
