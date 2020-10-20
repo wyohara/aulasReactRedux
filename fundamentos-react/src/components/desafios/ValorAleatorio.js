@@ -10,7 +10,7 @@ export default function ValorAleatorio(props){
 
   return (
     <div>
-      <h2>Componente com Fragmento</h2>
+      <h2>Gerando valor aleatório</h2>
       <p> Valor minimo  {min}</p>
       <p> Valor maximo  {max}</p>
       <strong> Resultado  {result}</strong>

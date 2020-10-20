@@ -5,4 +5,15 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Roboto;
+}
+
+h1,h2,h3{
+  font-weight: 300;
+}
+
+.app {
+  display: flex;
+
+  flex-wrap: wrap;
 }
