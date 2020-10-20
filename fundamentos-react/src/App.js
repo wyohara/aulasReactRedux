@@ -10,6 +10,7 @@ import './css/index.css'
 import Primeiro from './components/basic/Primeiro';
 import ComponenteComParametro from './components/basic/ComponenteComParametro';
 import ComponenteComFragmento from './components/basic/ComponenteComFragmento';
+import ValorAleatorio from './components/desafios/ValorAleatorio'
 
 export default ()=>{ // criando uma arrow function
   return (
@@ -18,6 +19,7 @@ export default ()=>{ // criando uma arrow function
       <Primeiro/>
       <ComponenteComParametro titulo="Meu titulo" nota={10.0}/>
       <ComponenteComFragmento/>
+      <ValorAleatorio min={10} max={100}/>
     </div>
   );
 }
