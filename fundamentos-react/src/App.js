@@ -15,8 +15,18 @@ import Familia from './components/basic/Familia';
 import Familia2 from './components/basic/Familia2';
 import Filho from './components/basic/Filho';
 import ListaAlunos from './components/basic/ListaAlunos';
-import ListaProdutos from './components/basic/ListaProdutos';
+import ListaProdutos from './components/desafios/ListaProdutos';
+import RenderizaoCondicional from './components/basic/renderizacaoCondicional/RenderizacaoCondicional';
+import TelaUsuario from './components/basic/renderizacaoCondicional/TelaUsuario';
+import ComunicacaoDireta from './components/basic/comunicacao/direta/ComunicacaoDireta_pai';
+import ComunicacaoIndireta from './components/basic/comunicacao/direta/ComunicacaoIndireta_pai';
+import ComponenteControlado from './components/basic/ComponenteControlado';
+import Contador from './components/basic/contador/Contador';
+import ContadorFuncional from './components/basic/contador/funcional/ContadorFuncional.js';
+import GeradorMegasena from './components/desafios/megasena/GeradorMegasena';
 
+
+// components de layout
 import Card from './components/layouts/Card';
 
 export default ()=>{ // criando uma arrow function
@@ -57,10 +67,39 @@ export default ()=>{ // criando uma arrow function
         </Card>
 
 
-        <Card title="Desafo - Criando a tabela de produtos" color="#2AA">
+        <Card title="Desafio - Criando a tabela de produtos" color="#2AA">
           <ListaProdutos/>
         </Card>
 
+        <Card title="Aula 8 - Renderização condicional" color="#2AF">
+          <TelaUsuario usuario={{"nome":"Willian"}}/>
+          <TelaUsuario usuario={{"email":"Willian"}}/>
+          <RenderizaoCondicional numero={20}/>
+        </Card>
+
+        <Card title="Aula 9 - Comunicação direta e indireta entre componente pai e filho" color="#BAF">
+          <ComunicacaoDireta/>
+        </Card>
+
+        <Card title="Aula 10 - Comunicação indireta entre componente pai e filho" color="#FAB">
+          <ComunicacaoIndireta/>
+        </Card>
+
+        <Card title="Aula 10 - Usando componente controlado" color="#23B">
+          <ComponenteControlado/>
+        </Card>
+
+        <Card title="Aula 11 - Criando um contador usando classe" color="#424242">
+          <Contador numeroInicial={10}/>
+        </Card>
+
+        <Card title="Aula 12 - Criando um contador funcional" color="#242424">
+          <ContadorFuncional numeroInicial={10}/>
+        </Card>
+
+        <Card title="Aula 13 - Desafio Mega Sena" color="#24FB24">
+          <GeradorMegasena/>
+        </Card>
       </div>
     </div>
   );
