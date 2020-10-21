@@ -1,6 +1,6 @@
 import React from 'react';
 
-import dadosAlunos from '../data/dadosAlunos';
+import dadosAlunos from '../../data/dadosAlunos';
 
 export default ()=>{
 

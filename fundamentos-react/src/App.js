@@ -15,6 +15,7 @@ import Familia from './components/basic/Familia';
 import Familia2 from './components/basic/Familia2';
 import Filho from './components/basic/Filho';
 import ListaAlunos from './components/basic/ListaAlunos';
+import ListaProdutos from './components/basic/ListaProdutos';
 
 import Card from './components/layouts/Card';
 
@@ -53,6 +54,11 @@ export default ()=>{ // criando uma arrow function
 
         <Card title="Parte 7 - Percorrendo listas" color="#20A">
           <ListaAlunos/>
+        </Card>
+
+
+        <Card title="Desafo - Criando a tabela de produtos" color="#2AA">
+          <ListaProdutos/>
         </Card>
 
       </div>

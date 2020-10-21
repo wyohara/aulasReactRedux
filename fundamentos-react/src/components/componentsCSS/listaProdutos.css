@@ -1,0 +1,11 @@
+.tabelaProdutos table{
+  width:100%;
+}
+
+.tabelaProdutos th {
+  background-color: '#008b8b';
+}
+
+.tabelaProdutos .zebrado{
+  background-color: '#ddd';
+}
